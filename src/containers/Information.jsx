@@ -24,4 +24,4 @@ const Information = () => {
         );
 }
 
-export default Home;
+export default Information;

@@ -6,4 +6,4 @@ const Success = () => {
     );
 }
 
-export default Home;
+export default Success;
