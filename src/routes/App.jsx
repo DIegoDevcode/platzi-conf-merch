@@ -14,12 +14,12 @@ const App = () => {
         <BrowserRouter>
         <Layout>
         <Routes>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/checkout" component={Checkout} />
-        <Route exact path="/checkout/information" component={Information} />
-        <Route exact path="/checkout/payment" component={Payment} />
-        <Route exact path="/checkout/success" component={Success} />
-        <Route component={NotFound} />
+        <Route path="/" element={<Home />} />
+        <Route path="/checkout" element={Checkout} />
+        <Route path="/checkout/information" element={<Information />} />
+        <Route path="/checkout/payment" element={<Payment />} />
+        <Route path="/checkout/success" element={<Success />} />
+        <Route element={<NotFound />} />
         </Routes>
         </Layout>
         </BrowserRouter>
